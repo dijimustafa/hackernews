@@ -30,11 +30,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.sayfa {
-
+.sayfa{
     background-color: #f6f6ef;
     min-width: 1000px;
-    padding: 400px;
+}
+.cizgi{
+    border-top: double 2px coral;
 }
 
 .altsayfa {
@@ -49,4 +50,19 @@
 .altsayfa a{
     text-decoration: none;
     color: black;
+}
+.altsayfa .sag{
+    display: flex;
+    justify-content: center;
+
+}
+.alt a{
+    font-size: 11px;
+    text-decoration: none;
+    color:gray;
+}
+.ust a{
+    font-size: 11px;
+    text-decoration: none;
+    color:gray; 
 }
